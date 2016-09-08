@@ -1,3 +1,49 @@
 * {
 	background: white;
 }
+
+body {
+	width: 1500px;
+	border: 3px solid red;
+}
+
+header {
+	border: 2px solid black;
+	height: 250px;
+}
+
+.name {
+	border: 2px solid blue;
+	display: inline-block;
+	float: right;
+	height: auto;
+	width: 84%;	
+	text-align: center;
+}
+
+.title {
+	display: block;
+	border: 1px solid pink;
+	height: 40px;
+	vertical-align: bottom;
+
+
+	color: #A51D1D;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+header img {
+	border: 2px green solid;
+	border-radius: 8px;
+	display: inline-block;
+	float: left;
+	height: 100%;
+	max-width: 15%;
+}	
+
+
+
+
+
+
