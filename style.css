@@ -1,49 +1,74 @@
-* {
-	background: white;
-}
-
 body {
-	width: 1500px;
-	border: 3px solid red;
+	background-color: white;	
 }
 
 header {
-	border: 2px solid black;
-	height: 250px;
+	display: flex;
+	
+
+	width: 100%;
+	height: 300px;
+	border: solid black 2px;
 }
 
-.name {
-	border: 2px solid blue;
-	display: inline-block;
-	float: right;
-	height: auto;
-	width: 84%;	
+header .photo_id {
+	border: solid red 2px;
+	margin: 0;
+	width: 300px;
+	height: 100%;
 	text-align: center;
 }
 
-.title {
-	display: block;
-	border: 1px solid pink;
-	height: 40px;
-	vertical-align: bottom;
-
-
-	color: #A51D1D;
-	font-size: 30px;
-	font-weight: bold;
+header .name {
+	border: solid blue 2px;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 }
 
-header img {
-	border: 2px green solid;
-	border-radius: 8px;
-	display: inline-block;
-	float: left;
-	height: 100%;
-	max-width: 15%;
-}	
+h1, h2 {
+	border: solid pink 2px;
+	margin:5px;
+	padding: 0;
+	
+}
+
+h1 {
+	color: #AF4034;
+	font-weight: bold;
+	font-size: 5em;
+}
+
+h2 {
+	color: #881600;
+	font-weight: bold;
+	font-size: 3em;
+}
 
 
 
+.content {
+	width: 100%;
+}
 
+.lateral-block {
+	width: 250px;
+	margin: 0;
+	/*padding: 10px;*/
 
+	border: solid orange 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.dl-button {
+	text-decoration: none;
+	border: solid black 2px;
+	border-radius: 6px;
+	width: 150px;
+
+}
