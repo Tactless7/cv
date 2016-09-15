@@ -1,5 +1,5 @@
 body {
-	background-color: white;	
+	background-color: white;
 }
 
 header {
@@ -12,11 +12,19 @@ header {
 }
 
 header .photo_id {
+	display: flex;
 	border: solid red 2px;
 	margin: 0;
-	width: 300px;
+	width: 350px;
 	height: 100%;
 	text-align: center;
+}
+
+.photo_id img {
+	margin: auto;
+	border: 1px solid #AF4034;
+	border-radius: 8px;
+	box-shadow: 3px 3px 3px #AF4034;
 }
 
 header .name {
@@ -57,7 +65,8 @@ h2 {
 .lateral-block {
 	width: 250px;
 	margin: 0;
-	/*padding: 10px;*/
+	padding: 20px;
+	
 
 	border: solid orange 2px;
 	display: flex;
@@ -67,8 +76,46 @@ h2 {
 
 .dl-button {
 	text-decoration: none;
+	text-align: center;
 	border: solid black 2px;
-	border-radius: 6px;
-	width: 150px;
+	border-radius: 8px;
 
+	width: auto;
+	padding: 8px;
+
+	background-color: #881600;
 }
+
+.dl-button a{
+	text-decoration: inherit;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+}
+
+
+.lateral-block li {
+	list-style: none;
+	line-height: 2em;
+	background-color: ;
+	color: #754F44;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.under-block a {
+	color: inherit;
+}
+
+.lateral-block ul {
+	padding: 10px;
+	margin: 0;
+}
+
+.lateral-block > div:not(.dl-button) {
+	border: solid 2px red;
+	padding:0;
+	margin: 30px auto;
+}
+
