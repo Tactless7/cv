@@ -1,5 +1,10 @@
 body {
 	background-color: white;
+	max-width: 1300px;
+	display: flex;
+	flex-direction: column;
+	margin: 5px auto;
+	border: solid black 2px;
 }
 
 
@@ -11,7 +16,7 @@ header {
 	
 
 	width: 100%;
-	height: 300px;
+	height: 270px;
 	border: solid black 2px;
 }
 
@@ -32,7 +37,6 @@ header .photo_id {
 }
 
 header .name {
-	border: solid blue 2px;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -42,7 +46,6 @@ header .name {
 }
 
 h1, h2 {
-	border: solid pink 2px;
 	margin:5px;
 	padding: 0;
 	
@@ -76,7 +79,7 @@ h2 {
 }
 
 .lateral-block {
-	width: 250px;
+	width: 280px;
 	margin: 0;
 	padding: 20px;
 	
@@ -93,7 +96,8 @@ h2 {
 	border: solid black 2px;
 	border-radius: 8px;
 
-	width: auto;
+	width: 170px;
+	height: auto;
 	padding: 8px;
 
 	background-color: #881600;
@@ -144,7 +148,6 @@ h2 {
 .body-block > *  {
 	display: flex;
 	flex-direction: column;
-	border: solid pink 2px;
 }
 .body-block h3 {
 	text-align: center;
@@ -152,33 +155,125 @@ h2 {
 	margin: 0 auto;
 	padding: 20px;
 
+
 	font-size: 2.5em;
 }
 
+
 .prebody-block>:first-child {
-	border: solid black 2px;
 }
 
 .body-block > div {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
 
-
+.body-block:not(:last-of-type) {
+	margin-bottom: 30px;
 }
 
 .abilities {
-	border: solid black 1px;
+	border: solid black 2px;
 	width: 200px;
 	height: 200px;
 	text-align: center;
 	padding: 5px 10px;
-	line-height: 1.4;	
+	margin: 10px 0;
+	line-height: 1.4;
+
+
 }
 
 .abilities h4 {
 	margin: 18px 15px;
 	font-size: 1.4em;
+
 }
 
 
+
+
+.exp_pro div > * , .formation div > *{
+	height: auto;
+	border: red solid 1px;
+}
+
+.exp_pro > div , .formation > div {
+	display: flex;
+	flex-direction: row;
+	height: auto;
+}
+.exp_pro > div:not(:last-of-type), .formation > div:not(:last-of-type){
+	margin-bottom: 5px;
+}
+
+.exp_pro > div > div , .formation > div > div{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.exp_pro h4, .exp_pro h5, .formation h4, .formation h5{
+	margin: 5px auto;
+	text-align: center;
+}
+
+.missions, .formation ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 50%;
+	padding: 5px;
+}
+
+
+
+
+
+
+.body-block:last-of-type ul {
+	list-style: none;
+	display: inline-flex;
+	flex-flow: wrap row;
+	padding: 30px 0;
+	width: 100%;
+	justify-content: center;
+	margin: 0;
+
+	font-style: italic;
+}
+
+.body-block:last-of-type li::after {
+	content: ",\0000a0"
+}
+.body-block:last-of-type li:last-of-type::after {
+	content: "";
+}
+
+
+
+
+
+
+footer {
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+	border: solid purple 2px;
+}
+
+footer > :nth-child(2) {
+	width: 350px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+footer i {
+	color: black;
+}
