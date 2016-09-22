@@ -6,8 +6,10 @@
 <head>	
 	<meta charset="utf-8">
 	<title>Juliane Blier - Mon CV</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="style-semantic.css">
+	<link rel="stylesheet" type="text/css" href="semantic/semantic.css">
 	
 </head>
 
@@ -15,20 +17,30 @@
 
 
 
-	<header>
-		<div class="photo_id">
-			<img src="./img/photo_id.jpg" alt="Photo de Juliane Blier"/>
-		</div>
-		<div class="name">
-			<h1 class="title">Juliane Blier</h1>
-			<h2 class="title">Développement Web et Gestion de Projet</h2>
+	<header class="container">
+
+		<div class="ui fourteen wide centered column grid header">
+			<div class="ui three wide column">
+				<img src="./img/photo_id.jpg" alt="Photo de Juliane Blier" class="ui centered bordered rounded image">
+			</div>
+			<div class="ui middle aligned twelve wide column header">
+				<div class="row">
+					<h1 class="ui huge centered header">Juliane Blier</h1>
+				</div>
+				<div class="row">
+					<h2 class="ui large centered header">Développement Web et Gestion de Projet</h2>
+				</div>
+			</div>
 		</div>
 	</header>
 
 
+	<div class="ui clearing divider"></div>
 
 
-	<div class="content">
+
+
+	<div class="container">
 
 		<div class="lateral-block">
 			<div class="dl-button">
@@ -254,7 +266,7 @@
 	</div>
 
 
-	<footer>
+	<footer class="container">
 		<div class="dl-button">
 			<a href="">Télécharger Mon CV</a>
 		</div>
@@ -265,9 +277,6 @@
 			<a href="#"><i class="fa fa-github fa-5x"></i></a>
 		</div>
 	</footer>
-
-
-
 </body>
 
 </html>
