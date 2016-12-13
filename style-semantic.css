@@ -1,9 +1,13 @@
 html > body {
 	max-width: 1200px;
-	margin: 50px auto;
+	margin: 10px auto;
 }
 
-
-/*.central_bloc > div {
-	border: solid black 1px;
+/*ul > li {
+	list-style-type: none;
 }*/
+
+ul {
+	margin: 0;
+	padding: 0;
+}
