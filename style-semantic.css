@@ -11,3 +11,13 @@ ul {
 	margin: 0;
 	padding: 0;
 }
+
+/* Cartes compétences */
+.ui.wide.cards > .ui.card {
+	padding: 1.5em;
+}
+
+.ui.wide.cards .contenu {
+	text-align: justify;
+
+}
