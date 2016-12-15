@@ -3,23 +3,28 @@ html > body {
 	margin: 10px auto;
 }
 
-/*ul > li {
-	list-style-type: none;
-}*/
-
 ul {
 	margin: 0;
 	padding: 0;
 }
 
+
 /* Cartes compétences */
 .ui.wide.cards > .ui.card {
 	padding: 1.5em;
+	line-height: 1.5em;
 }
 
 .ui.wide.cards .contenu {
 	text-align: justify;
+}
 
+.ui.card.skills {
+	
+}
+
+.ui.card .content.title {
+	max-height: 25%;
 }
 
 /* Barre Verticale */
