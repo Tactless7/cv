@@ -20,12 +20,17 @@ ul {
 	text-align: justify;
 }
 
-.ui.card.skills div.item{
+.ui.card.skills div.item, .ui.card.skills span,.ui.list.contenu > .item{
 	line-height: 1.5em;
+	font-size: 1.1em;
 }
 
 .ui.card .content.title {
 	max-height: 25%;
+}
+
+div.description {
+	line-height: 1.4em;
 }
 
 /* Barre Verticale */
