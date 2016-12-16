@@ -1,6 +1,7 @@
 html > body {
 	max-width: 1200px;
 	margin: 10px auto;
+	font-size: 18px;
 }
 
 ul {
@@ -15,12 +16,12 @@ ul {
 	line-height: 1.5em;
 }
 
-.ui.wide.cards .contenu {
+.ui.wide.cards .contenu, .ui.list > .item .description {
 	text-align: justify;
 }
 
-.ui.card.skills {
-	
+.ui.card.skills div.item{
+	line-height: 1.5em;
 }
 
 .ui.card .content.title {
@@ -29,6 +30,15 @@ ul {
 
 /* Barre Verticale */
 
-.ui.four.wide.segments a {
-	color: #16AB39;
+.ui.four.wide.segments a,.ui.four.wide.segments .ui.large.list a.header {
+	color: #F26202;
+}
+
+.title {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.ui.four.wide.segments. .ui.large.list a.header {
+
 }
