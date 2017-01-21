@@ -4,11 +4,16 @@ html > body {
 	font-size: 18px;
 }
 
+/*  Listes */
+
 ul {
 	margin: 0;
 	padding: 0;
 }
 
+ul.ui.list {
+	margin-left: 0;
+}
 
 /* Cartes compétences */
 .ui.wide.cards > .ui.card {
