@@ -15,6 +15,12 @@ ul.ui.list {
 	margin-left: 0;
 }
 
+/* Images Size*/
+
+div.ui.miny.images img{
+	max-width: 60px;
+}
+
 /* Segments */
 	.orange.segment {
 		margin-top: 3.5vh;
