@@ -18,7 +18,16 @@ ul.ui.list {
 /* Images Size*/
 
 div.ui.miny.images img{
-	max-width: 60px;
+	max-width: 4vw;
+	margin: 2vh 0.3vw;
+}
+div.ui.miny.images img:hover{
+	transform: scale(1.6);
+	z-index: 1;
+}
+
+div.ui.miny.images img.brunch {
+	max-height: 5.5vw;
 }
 
 /* Segments */
@@ -32,7 +41,7 @@ div.ui.miny.images img{
 
 /* Cartes compétences */
 .ui.wide.cards > .ui.card {
-	padding: 1.5em;
+	padding: 1em;
 	line-height: 1.5em;
 }
 
