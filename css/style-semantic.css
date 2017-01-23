@@ -1,74 +1,86 @@
-html > body {
-	max-width: 1200px;
-	margin: 10px auto;
-	font-size: 18px;
+@page {
+  size: A4;
+  margin: 0;
 }
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
 
-/*  Listes */
+  html > body {
+  	margin: 10px auto;
+  	font-size: 0.8em;
+  }
 
-ul {
-	margin: 0;
-	padding: 0;
-}
+  /*  Listes */
 
-ul.ui.list {
-	margin-left: 0;
-}
+  ul {
+  	margin: 0;
+  	padding: 0;
+  }
 
-/* Images Size*/
+  ul.ui.list {
+  	margin-left: 0;
+  }
 
-div.ui.miny.images img{
-	max-width: 4vw;
-	margin: 2vh 0.3vw;
-}
-div.ui.miny.images img:hover{
-	transform: scale(1.6);
-	z-index: 1;
-}
+  /* Images Size*/
 
-div.ui.miny.images img.brunch {
-	max-height: 5.5vw;
-}
+  /*div.ui.miny.images img{
+  	max-width: 4vw;
+  	margin: 2vh 0.3vw;
+  }
+  div.ui.miny.images img:hover{
+  	transform: scale(1.6);
+  	z-index: 1;
+  }
+  */
 
-/* Segments */
-	.orange.segment {
-		margin-top: 3.5vh;
-	}
+  div.ui.miny.images img.brunch {
+  	max-height: 5.5vw;
+  }
 
-	.fifteen.wide.column.grid.container {
-		margin-top: 2vh;
-	}
+  /* Segments */
+  	.orange.segment {
+  		margin-top: 3.5vh;
+  	}
 
-/* Cartes compétences */
-.ui.wide.cards > .ui.card {
-	padding: 1em;
-	line-height: 1.5em;
-}
+  	.fifteen.wide.column.grid.container {
+  		margin-top: 2vh;
+  	}
 
-.ui.wide.cards .contenu, .ui.list > .item .description {
-	text-align: justify;
-}
+  /* Cartes compétences */
+  .ui.wide.cards > .ui.card {
+  	padding: 1em;
+  	line-height: 1.5em;
+  }
 
-.ui.card.skills div.item, .ui.card.skills span,.ui.list.contenu > .item{
-	line-height: 1.5em;
-	font-size: 1.1em;
-}
+  .ui.wide.cards .contenu, .ui.list > .item .description {
+  	text-align: justify;
+  }
 
-.ui.card .content.title {
-	max-height: 25%;
-}
+  .ui.card.skills div.item, .ui.card.skills span,.ui.list.contenu > .item{
+  	line-height: 1.5em;
+  	font-size: 1.1em;
+  }
 
-div.description {
-	line-height: 1.4em;
-}
+  .ui.card .content.title {
+  	max-height: 25%;
+  }
 
-/* Barre Verticale */
+  div.description {
+  	line-height: 1.4em;
+  }
 
-.ui.four.wide.segments a,.ui.four.wide.segments .ui.large.list a.header {
-	color: #F26202;
-}
+  /* Barre Verticale */
 
-.title {
-	font-size: 1.1em;
-	font-weight: bold;
+  .ui.four.wide.segments a,.ui.four.wide.segments .ui.large.list a.header {
+  	color: #F26202;
+  }
+
+  .title {
+  	font-size: 1.1em;
+  	font-weight: bold;
+  }
+
 }
