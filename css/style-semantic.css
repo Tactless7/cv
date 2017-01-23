@@ -15,6 +15,15 @@ ul.ui.list {
 	margin-left: 0;
 }
 
+/* Segments */
+	.orange.segment {
+		margin-top: 3.5vh;
+	}
+
+	.fifteen.wide.column.grid.container {
+		margin-top: 2vh;
+	}
+
 /* Cartes compétences */
 .ui.wide.cards > .ui.card {
 	padding: 1.5em;
