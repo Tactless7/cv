@@ -9,8 +9,26 @@
   }
 
   html > body {
-  	margin: 10px auto;
+  	margin: 5mm;
   	font-size: 0.8em;
+    border: black solid 1px;
+  }
+
+  /* Header */
+
+  header {
+    max-height: 10%;
+  }
+  header div.ui.middle.aligned.twelve {
+    padding-top: 1%;
+    margin: 0;
+  }
+  h2.ui.centered.header {
+    margin-bottom: 2%;
+  }
+
+  h2.tiny.centered.header {
+    font-size: 0.9em;
   }
 
   /*  Listes */
@@ -24,34 +42,38 @@
   	margin-left: 0;
   }
 
-  /* Images Size*/
+  /* Expériences */
 
-  /*div.ui.miny.images img{
-  	max-width: 4vw;
-  	margin: 2vh 0.3vw;
+  .two.wide.cards {
+    font-size: 0.74em;
   }
-  div.ui.miny.images img:hover{
-  	transform: scale(1.6);
-  	z-index: 1;
-  }
-  */
 
-  div.ui.miny.images img.brunch {
-  	max-height: 5.5vw;
+  .ui.card.styled.accordion.master {
+    font-size: 0.74em;
+  }
+
+  div .ui.card.second , div .ui.two.wide.cards.second{
+    display: none;
+  }
+
+  /* Image Size */
+
+  div.ui.mini.images img.brunch {
+  	transform: scale(0.5);
   }
 
   /* Segments */
-  	.orange.segment {
+  	/*.orange.segment {
   		margin-top: 3.5vh;
   	}
 
   	.fifteen.wide.column.grid.container {
   		margin-top: 2vh;
-  	}
+  	}*/
 
   /* Cartes compétences */
   .ui.wide.cards > .ui.card {
-  	padding: 1em;
+  	padding: 0.6em;
   	line-height: 1.5em;
   }
 
@@ -61,7 +83,7 @@
 
   .ui.card.skills div.item, .ui.card.skills span,.ui.list.contenu > .item{
   	line-height: 1.5em;
-  	font-size: 1.1em;
+  	font-size: 0.8em;
   }
 
   .ui.card .content.title {
@@ -79,7 +101,7 @@
   }
 
   .title {
-  	font-size: 1.1em;
+  	font-size: 0.9em;
   	font-weight: bold;
   }
 
