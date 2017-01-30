@@ -10,10 +10,19 @@
 
   html > body {
   	margin: 5mm;
-  	font-size: 0.8em;
-    border: black solid 1px;
+  	font-size: 8.9pt;
+    font-family: Verdana;
+    letter-spacing: normal;
   }
 
+  h3.ui.medium.header {
+    margin-bottom: 1em;
+  }
+  h2.ui.tiny.centered.header.punchline{
+    /*font-family: 'Droid Sans Mono', monospace;*/
+    font-family: Verdana;
+    font-size: 0.8em;
+  }
   /* Header */
 
   header {
@@ -37,12 +46,35 @@
   	margin: 0;
   	padding: 0;
   }
+  div.ui.four.wide.segments .ui.segment {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   ul.ui.list {
   	margin-left: 0;
   }
 
+  .ui.segment.contact {
+    font-size: 1.2em;
+  }
+
+  /* Projets */
+
+  section.projets .list .item .content .description {
+    font-size: 0.7em;
+    font-family: Verdana;
+  }
+
+  section.projets a {
+    color: #F26202;
+  }
+
   /* Expériences */
+
+  h4.header {
+    font-size: 0.8em;
+  }
 
   .two.wide.cards {
     font-size: 0.74em;
@@ -50,26 +82,27 @@
 
   .ui.card.styled.accordion.master {
     font-size: 0.74em;
+
   }
 
-  div .ui.card.second , div .ui.two.wide.cards.second{
+  div .ui.card.second , div .ui.two.wide.cards.second {
     display: none;
   }
 
   /* Image Size */
 
   div.ui.mini.images img.brunch {
-  	transform: scale(0.5);
+  	transform: scale(0.7);
   }
 
-  /* Segments */
-  	/*.orange.segment {
-  		margin-top: 3.5vh;
-  	}
+  /* Formation */
+  div.ui.raised.card.simplon .content h4{
+    margin-bottom: 0;
+  }
 
-  	.fifteen.wide.column.grid.container {
-  		margin-top: 2vh;
-  	}*/
+  div.ui.raised.card.simplon .content {
+    padding: 0.3em;
+  }
 
   /* Cartes compétences */
   .ui.wide.cards > .ui.card {
@@ -93,6 +126,13 @@
   div.description {
   	line-height: 1.4em;
   }
+
+  .ui.styled.fluid.accordion .title{
+    font-size: 1.1em;
+    padding: 0.8em;
+    color: black;
+  }
+
 
   /* Barre Verticale */
 
