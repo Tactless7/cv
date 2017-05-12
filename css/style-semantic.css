@@ -28,6 +28,7 @@ div.ui.miny.images img:hover{
 
 div.ui.miny.images img.brunch {
 	max-height: 5.5vw;
+	margin: 0 1vw;
 }
 
 /* Segments */
