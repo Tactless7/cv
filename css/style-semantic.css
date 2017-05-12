@@ -98,7 +98,7 @@
   /* Image Size */
 
   div.ui.mini.images img.brunch {
-  	transform: scale(0.7);
+  	transform: scale(0.6);
   }
 
   /* Formation */
@@ -112,7 +112,7 @@
 
   /* Cartes compétences */
   .ui.wide.cards > .ui.card {
-  	padding: 0.6em;
+  	padding: 0.4em;
   	line-height: 1.5em;
   }
 
