@@ -6,17 +6,23 @@
   html, body {
     width: 210mm;
     height: 297mm;
+    margin: 0;
+    padding: 0;
   }
 
   html > body {
-  	margin: 5mm;
+  	margin: 2mm;
   	font-size: 8.9pt;
     font-family: Verdana;
     letter-spacing: normal;
   }
 
+  img.tiny.rounded.profile-photo{
+    max-width: 18mm;
+  }
+
   h3.ui.medium.header {
-    margin-bottom: 1em;
+    margin-bottom: 0.7em;
   }
   h2.ui.tiny.centered.header.punchline{
     /*font-family: 'Droid Sans Mono', monospace;*/
