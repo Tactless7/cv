@@ -139,6 +139,10 @@
     color: black;
   }
 
+  .ui.skills > h4.ui.header.skills-title {
+    font-size: 1em;
+  }
+
 
   /* Barre Verticale */
 
