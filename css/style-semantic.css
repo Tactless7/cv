@@ -101,6 +101,10 @@
     margin: 0 2mm;
   }
 
+  img.bootstrap {
+    transform: scale(0.8);
+  }
+
   /* Formation */
   div.ui.raised.card.simplon .content h4{
     margin-bottom: 0;
