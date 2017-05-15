@@ -94,6 +94,10 @@
     display: none;
   }
 
+  div.meta span.date {
+    padding-right: 3mm;
+  }
+
   /* Image Size */
 
   div.ui.mini.images img.brunch {
